@@ -1,0 +1,15 @@
+
+Subcircuit summary:
+Circuit 1: inv_std_layout.spice            |Circuit 2: inv_std.sp                      
+-------------------------------------------|-------------------------------------------
+nfet (1)                                   |nfet (1)                                   
+pfet (1)                                   |pfet (1)                                   
+c (6)                                      |c (6)                                      
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes inv_std_layout.spice and inv_std.sp are equivalent.
+Circuits match uniquely.

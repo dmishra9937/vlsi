@@ -1,0 +1,18 @@
+timestamp 1661586822
+version 8.3
+tech scmos
+style TSMC0.35um(tsmc35)from:t11c
+scale 1000 1 20
+resistclasses 3700 2800 1018000 1018000 1 6000 6000 80 70 80 40
+node "Out" 9 192.441 5 -15 ndif 36 24 60 32 0 0 0 0 0 0 0 0 0 0 112 64 0 0 0 0 0 0
+node "in" 96 262.252 -2 -4 pc 0 0 0 0 0 0 0 0 0 0 84 78 0 0 24 20 0 0 0 0 0 0
+node "Vdd!" 1084 1656.72 -9 -3 nw 32 32 60 32 702 106 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0
+substrate "Gnd!" 0 0 -3 -15 ndif 36 24 32 32 0 0 0 0 0 0 0 0 0 0 138 64 0 0 0 0 0 0
+cap "in" "Out" 41.238
+cap "Vdd!" "Out" 233.679
+cap "Vdd!" "in" 336.102
+device mosfet nfet 3 -15 4 -14 2 6 "Gnd!" "in" 4 0 "Gnd!" 6 0 "Out" 6 0
+device mosfet pfet 3 3 4 4 2 10 "Vdd!" "in" 4 0 "Vdd!" 10 0 "Out" 10 0
+subcap "Out" -92.313
+subcap "in" -30.2044
+subcap "Gnd!" -121.702

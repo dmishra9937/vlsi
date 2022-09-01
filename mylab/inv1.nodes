@@ -1,0 +1,4 @@
+out 9 -17 ndif
+in 4 -1 pc
+vdd -15 -1 nw
+gnd -9 -17 poc

@@ -1,0 +1,22 @@
+*Parametere Extration Exersise -1 *
+
+.lib "/home/debasish/cad/eda-technology/scn4m_subm/models/scn4m_cnrs_bsim3v1.lib" nom
+*set the device temperature
+.temp 27
+
+*netlist
+M1    D1 D1 0 B  scmosn w=5u l=1u 
+Vds   D  0 dc 5v
+Vid1  D1 D dc 0v
+Vsb   0  B dc 0v
+
+*analysis
+.dc Vds 0 5  0.001 Vsb 0 1 0.5
+
+*Script
+.control
+run
+plot (2* Vid1#branch) 
+^0.5 vs V(D)
+.endc
+.end

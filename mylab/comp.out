@@ -1,0 +1,6 @@
+Removing zero-valued device vsrc from cell inv1.spice makes a better match
+Making another compare attempt.
+Equate pins:  cell inv1.spice and/or invertor1.sp has no elements.
+Cells have no pins;  pin matching not needed.
+Device classes inv1.spice and invertor1.sp are equivalent.
+Verify:  cell invertor1.sp has no elements and/or nodes.  Not checked.

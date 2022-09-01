@@ -1,0 +1,27 @@
+* SPICE3 file created from /home/debasish/mylab/inv1.ext - technology: scmos
+
+.LIB /home/debasish/cad/eda-technology/scn4m_subm/models/scn4m_cnrs_bsim3v1.lib nom
+
+M1000 out in gnd gnd scmosn w=1.4u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+M1001 out in vdd vdd scmosp w=1.6u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+C0 out vdd 0.14fF
+C1 in vdd 0.32fF
+C2 out gnd 0.11fF
+C3 in gnd 0.30fF
+C4 vdd gnd 2.40fF
+.temp 27
+.param vsupply=2.5
+.global vdd gnd
+Vsup vdd 0 2.5
+Vin in gnd pulse 0 2.5 10n 10p 10p 5n 10n
+
+.tran 5p 50n
+.control 
+run
+plot V(in)+3 v(out)
+.endc
+.measure tran tdiff trig v(in) val=1.25 fall =1 targ v(out) val=1.25 rise=1 
+.end
+

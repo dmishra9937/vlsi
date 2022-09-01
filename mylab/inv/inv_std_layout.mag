@@ -1,0 +1,66 @@
+magic
+tech scmos
+timestamp 1661586822
+<< nwell >>
+rect -9 -3 17 24
+<< ntransistor >>
+rect 3 -15 5 -9
+<< ptransistor >>
+rect 3 3 5 13
+<< ndiffusion >>
+rect -3 -15 -2 -9
+rect 2 -15 3 -9
+rect 5 -15 6 -9
+rect 10 -15 11 -9
+<< pdiffusion >>
+rect -3 12 3 13
+rect -3 4 -2 12
+rect 2 4 3 12
+rect -3 3 3 4
+rect 5 12 11 13
+rect 5 4 6 12
+rect 10 4 11 12
+rect 5 3 11 4
+<< ndcontact >>
+rect -2 -15 2 -9
+rect 6 -15 10 -9
+<< pdcontact >>
+rect -2 4 2 12
+rect 6 4 10 12
+<< psubstratepcontact >>
+rect -2 -23 2 -19
+rect 6 -23 10 -19
+<< nsubstratencontact >>
+rect -2 17 2 21
+rect 6 17 10 21
+<< polysilicon >>
+rect 3 13 5 15
+rect 3 0 5 3
+rect 2 -4 5 0
+rect 3 -9 5 -4
+rect 3 -17 5 -15
+<< polycontact >>
+rect -2 -4 2 0
+<< metal1 >>
+rect -5 21 13 22
+rect -5 17 -2 21
+rect 2 17 6 21
+rect 10 17 13 21
+rect -5 16 13 17
+rect -2 12 2 16
+rect -2 3 2 4
+rect 6 12 10 13
+rect -4 -4 -2 0
+rect 6 -9 10 4
+rect -2 -18 2 -15
+rect -5 -19 12 -18
+rect -5 -23 -2 -19
+rect 2 -23 6 -19
+rect 10 -23 12 -19
+rect -5 -24 12 -23
+<< labels >>
+rlabel metal1 4 19 4 19 5 Vdd!
+rlabel metal1 4 -21 4 -21 1 Gnd!
+rlabel metal1 -3 -2 -3 -2 1 in
+rlabel metal1 8 -2 8 -2 1 Out
+<< end >>
